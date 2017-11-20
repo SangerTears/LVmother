@@ -1,0 +1,168 @@
+/*头部导航*/
+@import url("base.css");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+.view {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  height: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+.navbar .web_title {
+  left: 0;
+  top: 0;
+  height: 0.3rem;
+  width: 100%;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.navbar .navbar_left {
+  font-size: 0.14rem;
+  line-height: 0.5rem;
+  display: block;
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  left: 0.1rem;
+  top: 0;
+  color: #d30775;
+}
+.navbar .navbar_right {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../images/icon/my.png") no-repeat;
+  background-size: 0.25rem 0.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-origin: content-box;
+  background-clip: content-box;
+  padding: 0.1rem 0.1rem;
+}
+/*轮播图 */
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #f7f7f7;
+}
+/*景点门票 */
+.item {
+  padding-top: 0.05rem;
+  padding-bottom: 0.1rem;
+  padding-right: 0.05rem;
+}
+.item ul li {
+  float: left;
+  width: 2.1rem;
+  text-align: center;
+  padding-left: 0.05rem;
+  padding-top: 0.05remx;
+}
+/*机票 */
+.ticket {
+  margin-bottom: 0.2rem;
+}
+.ticket ul li {
+  float: left;
+  width: 1.6rem;
+  border: 0.01rem solid #ddd;
+}
+/*驴悦亲子 */
+.parent_child {
+  border-bottom: 0.01rem 0.01rem #ddd;
+}
+.parent_child ul li {
+  float: left;
+  width: 3.2rem;
+}
+/*热门活动 */
+.activity {
+  padding-bottom: 0.2rem;
+  border-bottom: 0.01rem solid #ddd;
+}
+.activity .activity_title {
+  font-size: 0.16rem;
+  height: 0.5rem;
+  border-bottom: 0.01rem solid #ddd;
+  padding-top: 0.2rem;
+}
+.activity .activity_title span {
+  margin-left: 0.1rem;
+}
+/*度周末  */
+.weekend .weekend_tittle {
+  border-top: 0.01rem solid #ddd;
+  height: 0.5rem;
+}
+.weekend .weekend_tittle .tittle_left,
+.weekend .weekend_tittle .tittle_right {
+  font-size: 0.16rem;
+  float: left;
+  width: 3.2rem;
+  text-align: center;
+  line-height: 0.5rem;
+}
+.weekend .weekend_tittle .tittle_left span,
+.weekend .weekend_tittle .tittle_right span {
+  width: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+.weekend .weekend_tittle .tittle_left span:hover,
+.weekend .weekend_tittle .tittle_right span:hover {
+  color: #d30775;
+  border-bottom: 0.02rem solid #d30775;
+}
+.weekend .weekend_content ul > li {
+  margin-bottom: 0.15rem;
+  background-color: #fff;
+}
+.weekend .weekend_content ul > li > a {
+  display: block;
+  padding-bottom: 0.1rem;
+}
+.weekend .weekend_content ul > li > a > p {
+  padding-top: 0.08rem;
+  font-size: 0.14rem;
+  color: #000;
+}
+.weekend .weekend_content ul > li > a > span {
+  display: block;
+  color: #4b4e5b;
+  font-size: 0.18rem;
+}
+/*查看更多  */
+.more {
+  height: 0.3rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.14rem;
+  line-height: 0.3rem;
+  color: #4b4e5b;
+}
+/*页尾   */
+.footer {
+  padding: 0 0.1rem;
+  margin-top: 0.15rem;
+  height: 0.3rem;
+  background-color: #d30775;
+  text-align: center;
+  font-size: 0.14rem;
+  line-height: 0.3rem;
+  color: #fff;
+}
+.footer > a {
+  float: left;
+}
+.footer > span {
+  float: right;
+  font-weight: 200;
+}
